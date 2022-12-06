@@ -1,5 +1,4 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
-import { devices } from '@playwright/test';
 
 /**
  * Read environment variables from file.
@@ -11,9 +10,9 @@ import { devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 const config: PlaywrightTestConfig = {
-  testDir: './poc/e2e',
+  testDir: './poc/API',
   /* Maximum time one test can run for. */ 
-  timeout: 30 * 1000,
+  timeout: 20 * 1000,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
@@ -36,7 +35,7 @@ const config: PlaywrightTestConfig = {
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://localhost:3000',
+    baseURL: 'https://ldos-qa-mlf-01.lis.eng.hitachivantara.com/hitachi-solutions/',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on',
@@ -81,18 +80,18 @@ const config: PlaywrightTestConfig = {
     // },
 
      /* Test against branded browsers. */
+    //{
+    //  name: 'Microsoft Edge',
+    //  use: {
+    //    channel: 'msedge',
+    //  },
+    //}
      {
-       name: 'Microsoft Edge',
+       name: 'Google Chrome',
        use: {
-         channel: 'msedge',
+         channel: 'chrome',
        },
      }
-    // {
-    //   name: 'Google Chrome',
-    //   use: {
-    //     channel: 'chrome',
-    //   },
-    // },
   ],
 
   /* Folder for test artifacts such as screenshots, videos, traces, etc. */
