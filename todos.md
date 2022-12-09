@@ -18,6 +18,7 @@
       - [] https://serenity-js.org/handbook/
       - [] https://github.com/serenity-js/serenity-js-cucumber-playwright-template
    - [] Udemy course
+      - [x] https://hitachivantara.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31112174#overview
    - [-] Andrey Lushnikov 
 
 
