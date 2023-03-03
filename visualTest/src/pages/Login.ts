@@ -8,7 +8,7 @@ export class LoginPage {
     constructor(page: Page) {
         this.page = page;
         this.buttonLogInAsAnEvaluator = page.getByText('Log in as an evaluator');
-        this.buttonLogInAdmin = page.locator('#role-admin-panel').getByRole('button', { name: 'Log in' });
+        this.buttonLogInAdmin = page.getByRole('button', { name: 'Login As Administrator' });         
     }
 
     async logInAsAnEvaluatorAdmin() {
