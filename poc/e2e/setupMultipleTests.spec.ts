@@ -1,8 +1,6 @@
 import { test } from '@playwright/test';
-//import { HeaderComponents } from '../POM/headerComponent';
-//import { LoginPage } from '../POM/loginPage';
-const { HeaderComponents } = require('../POM/headerComponent')
-const { LoginPage } = require('../POM/loginPage')
+import { HeaderComponents } from '../POM/headerComponent';
+import { LoginPage } from '../POM/loginPage';
 
 
 test.describe('Test the setups with fixtures', () => {

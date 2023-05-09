@@ -4,7 +4,10 @@
    - [x] install tool and run sample
    - [x] install IDE
    - [] address automation topics
-    - [] migrate https://github.com/pentaho/dataflow-manager/blob/master/automation/ui/src/test/resources/features/monitoring/ExecutionLogs/Slider.feature
+    - [!] migrate https://github.com/pentaho/dataflow-manager/blob/master/automation/ui/src/test/resources/features/monitoring/ExecutionLogs/Slider.feature
+       - [] setup test until slider - 
+            [] - auth reuse
+            [] - navigation 
  - [] Documentation  
    - [x] Andrey Lushnikov -> principal developer
    - [x] faster documentation read

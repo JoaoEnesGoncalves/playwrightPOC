@@ -1,0 +1,115 @@
+{
+  "cookies": [
+    {
+      "name": "AUTH_SESSION_ID",
+      "value": "ca972fdf-de85-4545-935f-ada2ec991d07.keycloak-0",
+      "domain": "ldos-qa-mlf-01.lis.eng.hitachivantara.com",
+      "path": "/hitachi-solutions/hscp-hitachi-solutions/keycloak/realms/default/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AUTH_SESSION_ID_LEGACY",
+      "value": "ca972fdf-de85-4545-935f-ada2ec991d07.keycloak-0",
+      "domain": "ldos-qa-mlf-01.lis.eng.hitachivantara.com",
+      "path": "/hitachi-solutions/hscp-hitachi-solutions/keycloak/realms/default/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "KEYCLOAK_IDENTITY",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJhY2IzOGU2My0wYTU0LTQwZGUtOGVkMS1lZjZhNzFjN2NhNTUifQ.eyJleHAiOjE2NzExNTk4OTcsImlhdCI6MTY3MTEyMzg5NywianRpIjoiYmI5NGU2NmUtMWNhOS00ZTRmLTk3ZGItYjAxMTRiYTU5NzYwIiwiaXNzIjoiaHR0cHM6Ly9sZG9zLXFhLW1sZi0wMS5saXMuZW5nLmhpdGFjaGl2YW50YXJhLmNvbS9oaXRhY2hpLXNvbHV0aW9ucy9oc2NwLWhpdGFjaGktc29sdXRpb25zL2tleWNsb2FrL3JlYWxtcy9kZWZhdWx0Iiwic3ViIjoiNDNmMGEyMWEtYmRlZC00NzcxLTk5YTQtNDU0NDViY2YxMDA5IiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiJjYTk3MmZkZi1kZTg1LTQ1NDUtOTM1Zi1hZGEyZWM5OTFkMDciLCJzaWQiOiJjYTk3MmZkZi1kZTg1LTQ1NDUtOTM1Zi1hZGEyZWM5OTFkMDciLCJzdGF0ZV9jaGVja2VyIjoic25XdXhwSXBzeFJ0T3g3bzZSN1AzakVPWXo4TlhsQVdLVHpheG5la1FHRSJ9.NdmCF-fmQ694t3_-jWqK2NJFdCtD9v6mgP5F0J4KBW4",
+      "domain": "ldos-qa-mlf-01.lis.eng.hitachivantara.com",
+      "path": "/hitachi-solutions/hscp-hitachi-solutions/keycloak/realms/default/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_IDENTITY_LEGACY",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJhY2IzOGU2My0wYTU0LTQwZGUtOGVkMS1lZjZhNzFjN2NhNTUifQ.eyJleHAiOjE2NzExNTk4OTcsImlhdCI6MTY3MTEyMzg5NywianRpIjoiYmI5NGU2NmUtMWNhOS00ZTRmLTk3ZGItYjAxMTRiYTU5NzYwIiwiaXNzIjoiaHR0cHM6Ly9sZG9zLXFhLW1sZi0wMS5saXMuZW5nLmhpdGFjaGl2YW50YXJhLmNvbS9oaXRhY2hpLXNvbHV0aW9ucy9oc2NwLWhpdGFjaGktc29sdXRpb25zL2tleWNsb2FrL3JlYWxtcy9kZWZhdWx0Iiwic3ViIjoiNDNmMGEyMWEtYmRlZC00NzcxLTk5YTQtNDU0NDViY2YxMDA5IiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiJjYTk3MmZkZi1kZTg1LTQ1NDUtOTM1Zi1hZGEyZWM5OTFkMDciLCJzaWQiOiJjYTk3MmZkZi1kZTg1LTQ1NDUtOTM1Zi1hZGEyZWM5OTFkMDciLCJzdGF0ZV9jaGVja2VyIjoic25XdXhwSXBzeFJ0T3g3bzZSN1AzakVPWXo4TlhsQVdLVHpheG5la1FHRSJ9.NdmCF-fmQ694t3_-jWqK2NJFdCtD9v6mgP5F0J4KBW4",
+      "domain": "ldos-qa-mlf-01.lis.eng.hitachivantara.com",
+      "path": "/hitachi-solutions/hscp-hitachi-solutions/keycloak/realms/default/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "KEYCLOAK_SESSION",
+      "value": "default/43f0a21a-bded-4771-99a4-45445bcf1009/ca972fdf-de85-4545-935f-ada2ec991d07",
+      "domain": "ldos-qa-mlf-01.lis.eng.hitachivantara.com",
+      "path": "/hitachi-solutions/hscp-hitachi-solutions/keycloak/realms/default/",
+      "expires": 1671159897.582954,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_SESSION_LEGACY",
+      "value": "default/43f0a21a-bded-4771-99a4-45445bcf1009/ca972fdf-de85-4545-935f-ada2ec991d07",
+      "domain": "ldos-qa-mlf-01.lis.eng.hitachivantara.com",
+      "path": "/hitachi-solutions/hscp-hitachi-solutions/keycloak/realms/default/",
+      "expires": 1671159897.583002,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "request_uri",
+      "value": "L2hvbWUv",
+      "domain": "ldos-qa-mlf-01.lis.eng.hitachivantara.com",
+      "path": "/hitachi-solutions/control-plane/control-plane-lcp-app",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OAuth_Token_Request_State",
+      "value": "eec36a3d-9ea1-47e0-b784-03a16ddde84d",
+      "domain": "ldos-qa-mlf-01.lis.eng.hitachivantara.com",
+      "path": "/hitachi-solutions/control-plane/control-plane-lcp-app",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "kc-access",
+      "value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJEU1lTb0lSR2hxd252WTdxUUN5UG5Wajhicl9WcEs5WHdqWGlvdXdLZ2U0In0.eyJleHAiOjE2NzExMjQxOTcsImlhdCI6MTY3MTEyMzg5NywiYXV0aF90aW1lIjoxNjcxMTIzODk3LCJqdGkiOiI1OGFjNTQ4Yy04NDY3LTQyODQtYTFkMi0zZGIxOTc1MDI5ZDEiLCJpc3MiOiJodHRwczovL2xkb3MtcWEtbWxmLTAxLmxpcy5lbmcuaGl0YWNoaXZhbnRhcmEuY29tL2hpdGFjaGktc29sdXRpb25zL2hzY3AtaGl0YWNoaS1zb2x1dGlvbnMva2V5Y2xvYWsvcmVhbG1zL2RlZmF1bHQiLCJhdWQiOlsiY29udHJvbC1wbGFuZS1sY3Atc3NvLWNsaWVudCIsInNvbHV0aW9uLWNvbnRyb2wtcGxhbmUtc3NvLWNsaWVudCIsInJlYWxtLW1hbmFnZW1lbnQiLCJoc2NwLWhpdGFjaGktc29sdXRpb25zLWtpYmFuYS1jbGllbnQiLCJkYXRhZmxvdy1zdHVkaW8tc3NvLWNsaWVudCIsInBkaS1leGVjdXRpb24tbWFuYWdlci1zc28tY2xpZW50Iiwic29sdXRpb24tY29udHJvbC1wbGFuZS1zd2FnZ2VyLXNzby1jbGllbnQiLCJsZGMtbHVtYWRhLWNhdGFsb2ctc3NvLWNsaWVudCIsImFjY291bnQiLCJhcHAtc3dpdGNoZXItbGFwLXNzby1jbGllbnQiLCJkYXRhLXB1Ymxpc2gtc2VydmljZS1zc28tY2xpZW50IiwibGRjLWx1bWFkYS1jYXRhbG9nLXJlc3Qtc3NvLWNsaWVudCJdLCJzdWIiOiI0M2YwYTIxYS1iZGVkLTQ3NzEtOTlhNC00NTQ0NWJjZjEwMDkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJjb250cm9sLXBsYW5lLWxjcC1zc28tY2xpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6ImNhOTcyZmRmLWRlODUtNDU0NS05MzVmLWFkYTJlYzk5MWQwNyIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL2xkb3MtcWEtbWxmLTAxLmxpcy5lbmcuaGl0YWNoaXZhbnRhcmEuY29tIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJBZG1pbmlzdHJhdG9yIiwiZGVmYXVsdC1yb2xlcy1kZWZhdWx0Iiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7InNvbHV0aW9uLWNvbnRyb2wtcGxhbmUtc3NvLWNsaWVudCI6eyJyb2xlcyI6WyJ2aWV3Il19LCJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwiY3JlYXRlLWNsaWVudCIsIm1hbmFnZS11c2VycyIsInF1ZXJ5LXJlYWxtcyIsInZpZXctYXV0aG9yaXphdGlvbiIsInF1ZXJ5LWNsaWVudHMiLCJxdWVyeS11c2VycyIsIm1hbmFnZS1ldmVudHMiLCJtYW5hZ2UtcmVhbG0iLCJ2aWV3LWV2ZW50cyIsInZpZXctdXNlcnMiLCJ2aWV3LWNsaWVudHMiLCJtYW5hZ2UtYXV0aG9yaXphdGlvbiIsIm1hbmFnZS1jbGllbnRzIiwicXVlcnktZ3JvdXBzIl19LCJoc2NwLWhpdGFjaGktc29sdXRpb25zLWtpYmFuYS1jbGllbnQiOnsicm9sZXMiOlsidmlldyJdfSwiZGF0YWZsb3ctc3R1ZGlvLXNzby1jbGllbnQiOnsicm9sZXMiOlsiZ2V0X2RhdGFfZmxvd19ncm91cHMiLCJ1cGRhdGVfZGF0YV9mbG93Iiwic2NoZWR1bGVfZGF0YV9mbG93IiwicmVtb3ZlX3NjaGVkdWxlIiwiZWRpdF9zY2hlZHVsZSIsInJlbW92ZV9kYXRhX2Zsb3ciLCJ1cGRhdGVfZGF0YV9mbG93X2dyb3VwcyIsImNhbmNlbF9leGVjdXRpb24iLCJleGVjdXRlX2RhdGFfZmxvdyIsInJlc3VtZV9zY2hlZHVsZSIsInBhdXNlX3NjaGVkdWxlIiwiY3JlYXRlX2RhdGFfZmxvdyJdfSwicGRpLWV4ZWN1dGlvbi1tYW5hZ2VyLXNzby1jbGllbnQiOnsicm9sZXMiOlsiY3JlYXRlX2V4ZWN1dGlvbiIsImRlbGV0ZV9leGVjdXRpb24iLCJwaW5nIiwiZ2V0X2V4ZWN1dGlvbl9zdGF0dXMiXX0sInNvbHV0aW9uLWNvbnRyb2wtcGxhbmUtc3dhZ2dlci1zc28tY2xpZW50Ijp7InJvbGVzIjpbInZpZXciXX0sImxkYy1sdW1hZGEtY2F0YWxvZy1zc28tY2xpZW50Ijp7InJvbGVzIjpbImFkbWluaXN0cmF0b3IiXX0sImNvbnRyb2wtcGxhbmUtbGNwLXNzby1jbGllbnQiOnsicm9sZXMiOlsid3JpdGVfc3RhdGljQ29uZmlnIiwicmVhZF91c2VySW5mbyIsInJlYWRfY29udHJvbFBsYW5lQ29uZmlnIiwid3JpdGVfY29udHJvbFBsYW5lQ29uZmlnIiwicmVhZF9jb250ZXh0IiwicmVhZF9zdGF0aWNDb25maWciLCJkZWxldGVfc3RhdGljQ29uZmlnIiwicmVhZF9jb25maWciXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJ2aWV3LWFwcGxpY2F0aW9ucyIsInZpZXctY29uc2VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwiZGVsZXRlLWFjY291bnQiLCJtYW5hZ2UtY29uc2VudCIsInZpZXctcHJvZmlsZSJdfSwiYXBwLXN3aXRjaGVyLWxhcC1zc28tY2xpZW50Ijp7InJvbGVzIjpbIndyaXRlX2NvbmZpZyIsInJlYWRfYXBwcyIsInJlYWRfY29uZmlnIl19LCJkYXRhLXB1Ymxpc2gtc2VydmljZS1zc28tY2xpZW50Ijp7InJvbGVzIjpbImltcG9ydF9wdWJsaWNhdGlvbiIsImV4cG9ydF9wdWJsaWNhdGlvbiJdfSwibGRjLWx1bWFkYS1jYXRhbG9nLXJlc3Qtc3NvLWNsaWVudCI6eyJyb2xlcyI6WyJhZG1pbmlzdHJhdG9yIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsInNpZCI6ImNhOTcyZmRmLWRlODUtNDU0NS05MzVmLWFkYTJlYzk5MWQwNyIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6IkNocmlzdGlhbiBNb29yZSIsInByZWZlcnJlZF91c2VybmFtZSI6ImNtb29yZSIsImdpdmVuX25hbWUiOiJDaHJpc3RpYW4iLCJmYW1pbHlfbmFtZSI6Ik1vb3JlIn0.AGlBvGASxGPpzJ3ezVbdb2hKOXdznOIvUMb1PkW4Vy2A-QpvU1vLhj1qQf4hr7DrqNgh9nIA9k4xXwhGvKku9eSRsl0p_SWRh2can0zUk3OvdILD7GippG19s3rw2WaEgGaTermNP6UJRKLAYO3vKsHCwPahBEX3td04EIEAqrEg-AOZBNawOVHAZfq830nFIi7Ac57DcqegWCVY",
+      "domain": "ldos-qa-mlf-01.lis.eng.hitachivantara.com",
+      "path": "/hitachi-solutions/control-plane/control-plane-lcp-app",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "kc-access-1",
+      "value": "UjcIKBF-sznM1lyLZJyJW1X_yDpavCk2qsd52D8a3nEZQeGiAAT_lPE026JgukGl5ar6F_SSiFgpNJ0sFUSCLBZxRtDOaMyrF8FQBNEuU84lwE1XPeWnsXdGa0Mway4oNQvwvQ",
+      "domain": "ldos-qa-mlf-01.lis.eng.hitachivantara.com",
+      "path": "/hitachi-solutions/control-plane/control-plane-lcp-app",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "kc-state",
+      "value": "JaWZD03ISxftkWuJhVkw3RkO4dpKddwhE6855RNz6B8GfNY8f5jZGN+AYttPGLBHZsEjNS4ge4Ascu8wapeHvVgypVLPnOuAbNdT6wareVQCm6ogv5FScHwAacsl0AXHoyRSo15Yu561ZVcOhD4etednaQkelVj2m310xiybiqjMGvDZrTA1Uj+zjontaKktxgvS48Wfr4wcsVUG9vRmg8n2YY2oDT9cTX9I3836XEpU6aWxhWYLZ6O0OBoOud/QNMNCeEGbIZfENOyZL3KwGObOMg/wRA8nbKPDO+10NBiJ1qSkxlaH+jaPvx8w0gAhYSXk/CZP+mOyGZOUP8tCkFb7Fz3VQSoWWJ1qvJaAnodnlVEyFRb4yx8LsYrR2IKloGbq5DDOSG2k59DAHszVDLP4/qqu9OEQyH4D0Qy6W+aSGaE79g1ZEMjpmWCfNI71mjZgPOfK4/rsGlBThsoCsTUEiJ3adu54a5AKHRNQGGs+VKsPE/1pc5Io0qyl63eD8t9G223y86aXV2XBKR7nLJXFy5oJml8JCxFY628+UhwcrlW1HyrLcxrgEwMCNUPPN4izh+INxpP70hvZ5DkyU7aS+pjCMgVFwJy5cM+uC67XqoiWHke2n9WGlskV1LzAsA84C5YKqm2h/Rxah3r/kjeP6XuzICQscDM5UT+pAkn9LUx5PEvgOs6nVDGl9IJTJPgHjkpdifrJp5+qtJBMNmsQXEpd0tnvy+Xvawq9dHTHNkJbDV94GWEt5OeK7d2k7dque6CcDSot0+xpxXFnKd4G+yF+6przGqI8H7X3lShl0ngBScaUFg9MvrGfZ+iNk0lFH0c4vItWyBO2WEf8DihjeppHnRiVQRfD20z4OaYGwTrNQJYknAiUC4cljvuNUSS7XuGkluByblHi0nnxk4wqDICtAU2ro5IyN2InPdZ/ysso3TUD+8XpTV2ninnN18jbE/RJiKmL7civk7i42+Vlozpr/bjQToiJE31u2W98DTN5/PL6GwEq+NBHhoyqzfLTgxtWG1amkUR48sboh9ryKbAgAC74wXRhMTLVnOpU77vxeEB/WVZ34KtIM/9zQMEo+xvCdgwiIWCWzjEAL0A/Wp2CWXutfb9wxJ+NcxwQSTfwccWZtJJ8v/f/MXcm5C6fCP4+gbFp6OMNl1babTryAoQUbFmdXydXW6jQFCtqMAiaL64q2dO6OWkXFsHKFN1+",
+      "domain": "ldos-qa-mlf-01.lis.eng.hitachivantara.com",
+      "path": "/hitachi-solutions/control-plane/control-plane-lcp-app",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

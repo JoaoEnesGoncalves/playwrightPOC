@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/JoaoEnesGoncalves/playwrightPOC#readme",
   "devDependencies": {
+    "@applitools/eyes-playwright": "^1.14.0",
     "@playwright/test": "^1.28.1"
   }
 }

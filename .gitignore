@@ -109,3 +109,6 @@ dist
 /test-results/
 /playwright-report/
 /playwright/.cache/
+
+# idea editor
+.idea/

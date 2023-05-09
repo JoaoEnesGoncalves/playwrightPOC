@@ -1,4 +1,4 @@
-import { expect, Locator, Page } from '@playwright/test';
+import { Locator, Page } from '@playwright/test';
 
 export class LoginPage {
     readonly page: Page;
@@ -14,7 +14,7 @@ export class LoginPage {
     }
 
     async goto() {
-        await this.page.goto('https://ldos-qa-mlf-01.lis.eng.hitachivantara.com/hitachi-solutions/dataflow-studio/dataflow-studio-app/dataflow-manager/#/dataflows');
+        await this.page.goto('https://ldos-qa-mlf-01.lis.eng.hitachivantara.com/hitachi-solutions/control-plane/control-plane-lcp-app/home/');
     }
 
     async summitCredentials( user: string, password: string) {
