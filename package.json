@@ -1,0 +1,21 @@
+{
+  "name": "playwrightPOC",
+  "version": "1.0.0",
+  "description": "## Documentation     https://playwright.dev/docs/intro",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoEnesGoncalves/playwrightPOC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoEnesGoncalves/playwrightPOC/issues"
+  },
+  "homepage": "https://github.com/JoaoEnesGoncalves/playwrightPOC#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.33.0"
+  }
+}
