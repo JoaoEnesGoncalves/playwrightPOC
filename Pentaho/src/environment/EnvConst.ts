@@ -3,6 +3,7 @@ export class EnvConst {
     static readonly ADMIN_USER = 'admin'
     static readonly DEFAULT_PASSWORD = 'password'
     static readonly STORAGE_DIRECTORY = '.storageState/'
+    static readonly RESOURCES_DIRECTORY = 'Pentaho/tests/resources/'
 
     /**
      * @param user user name

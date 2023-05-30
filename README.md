@@ -20,6 +20,9 @@
 - Test measure options dialogs?
 
 ## PLAYWRIGHT EXPERIENCE
+
 ### PLUS:
+ - Session reuse
 
 ### MINUS:
+ - runtime debug
