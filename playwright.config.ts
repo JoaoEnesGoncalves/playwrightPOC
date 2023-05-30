@@ -1,4 +1,5 @@
-import { defineConfig, devices } from '@playwright/test';
+import { defineConfig, devices } from '@playwright/test'
+import { EnvConst } from './Pentaho/src/environment/EnvConst'
 
 /**
  * Read environment variables from file.
@@ -10,6 +11,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  globalSetup: require.resolve('./global.setup.ts'),
   testDir: './Pentaho',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -23,6 +25,8 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    baseURL: EnvConst.BASE_URL,
+    storageState: EnvConst.getStateFile(EnvConst.ADMIN_USER, EnvConst.DEFAULT_PASSWORD),
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
 
