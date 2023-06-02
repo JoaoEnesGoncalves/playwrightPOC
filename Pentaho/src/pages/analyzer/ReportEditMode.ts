@@ -20,4 +20,11 @@ export class ReportEditMode {
         const response = await this.page.goto(this.path, { waitUntil: "domcontentloaded" })
         expect(response?.status()).toBe(200)
     }
+
+    async assertTableText(tableText: string[]) {
+        const allInnerTexts = await this.page.locator('#pivotTable  td[type]').allInnerTexts()
+        expect (allInnerTexts).toEqual(tableText)
+    }
+
+
 }
