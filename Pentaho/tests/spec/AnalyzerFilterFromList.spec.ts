@@ -5,28 +5,28 @@ import { ReportEditMode } from '../../src/pages/analyzer/ReportEditMode'
 import { ReportTableSteps } from '../../src/pages/analyzer/ReportTableSteps'
 
 
-const pucReportPath = '/home/admin/testReportx'
 const report = new Report
+const pucReportPath = '/home/admin/testReportx'
 const resourceReport = EnvConst.RESOURCES_DIRECTORY + 'reports/TerritorySales.xml'
 const filters = ["Territory excludes APAC, Japan, NA and Not Available",
-    "Territory includes EMEA"]
+"Territory includes EMEA"]
 const table = ['Territory', 'Sales', 'EMEA', '5,008,224']
 
 
-test.describe.configure({mode:"serial"})
+test.describe.configure({ mode: "parallel" })
 test.describe('Filter select from a list - includes vs excludes', () => {
 
-    test.beforeAll(async ({ }) => {
-        await test.step(`Create report ${pucReportPath}`, async () => {
-            await report.createReport(pucReportPath, resourceReport)
-        })
-    })
-
     for (const index in filters) {
-        test(`Filter by text type for${filters[index]}`, async ({ page }) => {
-            const reportEditMode = new ReportEditMode(page, pucReportPath)
+        test(`Filter by text type for${filters[index]}`, async ({ page }, testinfo) => {
+            const pucPathReportID = pucReportPath + testinfo.testId
 
-            await test.step(`Given Admin user opened the Analyzer Report ${pucReportPath}"`, async () => {
+            await test.step(`Create report ${pucPathReportID}`, async () => {
+                await report.createReport(pucPathReportID, resourceReport)
+            })
+
+            const reportEditMode = new ReportEditMode(page, pucPathReportID)
+
+            await test.step(`Given Admin user opened the Analyzer Report ${pucPathReportID}"`, async () => {
                 await reportEditMode.goTo()
             })
 
@@ -42,9 +42,9 @@ test.describe('Filter select from a list - includes vs excludes', () => {
         })
     }
 
-    test.afterAll(async ({ }) => {
+    test.afterAll(async ({ }, testinfo) => {
         await test.step(`delete report ${pucReportPath}`, async () => {
-            await report.deleteReport(pucReportPath)
+            await report.deleteReport(pucReportPath + testinfo.testId)
         })
     })
 
