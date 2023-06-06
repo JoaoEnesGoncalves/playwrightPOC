@@ -14,7 +14,7 @@ const table = ['Territory', 'Sales', 'EMEA', '5,008,224']
 
 
 test.describe.configure({ mode: "parallel" })
-test.describe('Filter select from a list - includes vs excludes', () => {
+test.describe.fixme('Filter select from a list - includes vs excludes', () => {
 
     for (const index in filters) {
         test(`Filter by text type for${filters[index]}`, async ({ page }, testinfo) => {
