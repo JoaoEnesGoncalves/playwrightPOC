@@ -65,7 +65,6 @@ ___
 
 ___
 ## TODO!
- - ESLint implementation
  - study screenplay pattern vs fixtures pages
  - integration, docker in CI/CD + selenium grid integration
  - apply study network interception test / mock data

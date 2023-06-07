@@ -1,5 +1,5 @@
-import { defineConfig, devices } from '@playwright/test'
-import { EnvConst } from './Pentaho/src/environment/EnvConst'
+import { defineConfig, devices } from '@playwright/test';
+import { EnvConst } from './Pentaho/src/environment/EnvConst';
 
 /**
  * Read environment variables from file.
@@ -41,7 +41,7 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
-/*     {
+    /*     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
     },
