@@ -12,10 +12,16 @@ pipeline {
                 sh 'hostname'
                 sh 'pwd'
                 sh 'node --version'
-                sh 'ls -al'
                 sh 'npm ci'
-                sh 'npx playwright test'
+                sh 'PLAYWRIGHT_JUNIT_OUTPUT_NAME=results.xml npx playwright test --project=chromium --reporter=junit'
+                sh 'ls -al'
+                archiveArtifacts artifacts: '**', followSymlinks: false
             }
+        }
+    }
+    post {
+        always {
+            junit 'results.xml'
         }
     }
 }
