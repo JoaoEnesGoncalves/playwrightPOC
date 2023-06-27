@@ -1,5 +1,5 @@
 export class EnvConst {
-  static readonly BASE_URL = 'http://localhost:8080/pentaho/';
+  static readonly BASE_URL = 'http://'.concat( process.env.IP!, ':8080/pentaho/');
   static readonly ADMIN_USER = 'admin';
   static readonly DEFAULT_PASSWORD = 'password';
   static readonly STORAGE_DIRECTORY = '.storageState/';
