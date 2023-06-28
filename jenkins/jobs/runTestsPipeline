@@ -1,0 +1,32 @@
+pipeline {
+    agent {
+        docker {
+            label 'playwrightNodes'
+            image 'mcr.microsoft.com/playwright:v1.35.1-jammy'
+            args '--ipc=host -u 0:0 -v=$WORKSPACE:/jenkins/jobs'
+        }
+    }
+
+    parameters {
+        string(
+            name: "IP",
+            defaultValue: "127.0.0.1",
+            description: "Pentaho machine IP or hostname on format 127.0.0.1 "
+        )
+    }
+
+    stages {
+        stage('run playwright docker image') {
+            steps {
+                sh ("cd jenkins/jobs && chmod +x runTestsScript.sh && ./runTestsScript.sh \"${params.IP}\"  ")
+                archiveArtifacts artifacts: '**', excludes: 'node_modules/', followSymlinks: false, fingerprint: true
+            }
+        }
+    }
+
+    post {
+        always {
+            junit 'results.xml'
+        }
+    }
+}
