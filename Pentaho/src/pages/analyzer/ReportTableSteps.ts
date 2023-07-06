@@ -1,6 +1,6 @@
 import type { Page } from '@playwright/test';
 import { test } from '@playwright/test';
-import { ReportTable } from './ReportTable';
+import { ReportTable, EnumColumnOptions } from './ReportTable';
 import { FilterDialogTypeText } from './dialogs/filter/text/FilterDialogTypeText';
 import type { FilterTextType } from './dialogs/filter/text/FilterTextType';
 import { FilterTextClass } from './dialogs/filter/text/FilterTextType';
@@ -25,7 +25,7 @@ export class ReportTableSteps {
 
     await test.step(`open ${filterText.column} column`, async () => {
       await table.openColumnContextMenu(filterText.column);
-      await table.selectFilterOption();
+      await table.selectOption(EnumColumnOptions.FILTER)
     });
 
     await test.step(`apply filter include ${filterText.values}`, async () => {

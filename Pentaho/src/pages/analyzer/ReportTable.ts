@@ -1,5 +1,10 @@
 import type { Page } from '@playwright/test';
 
+export enum EnumColumnOptions {
+  FILTER = 'Filter...',
+  HYPERLINK = 'Hyperlink...',
+}
+
 export class ReportTable {
 
   readonly page: Page;
@@ -19,8 +24,8 @@ export class ReportTable {
     });
   }
 
-  async selectFilterOption() {
-    await this.page.getByRole('cell', { name: 'Filter...' }).click();
+  async selectOption( option: EnumColumnOptions) {
+    await this.page.getByRole('cell', { name: option }).click();
   }
 
   async clickShowHideFilter() {
