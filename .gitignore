@@ -117,3 +117,7 @@ dist
 
 # storage states files
 .storageState/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
