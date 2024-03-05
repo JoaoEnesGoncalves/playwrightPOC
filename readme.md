@@ -51,3 +51,7 @@
 ### Playwright > Pentaho Authentication
  - https://playwright.dev/docs/auth
  
+
+ ### Playwright > Run Analyzer filters tests
+ - https://playwright.dev/docs/running-tests
+ - ``npx playwright test AnalyzerFilterFromList.spec.ts --trace on"

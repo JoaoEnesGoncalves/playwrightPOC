@@ -25,3 +25,8 @@ test('create and Delete an Analyzer report', async ({ }) => {
     await report.deleteReport(pucReportPath);
   });
 });
+
+
+test('ui script to open an analyzer report', async ({ }) => {
+  await reportEditMode.goTo();
+});
